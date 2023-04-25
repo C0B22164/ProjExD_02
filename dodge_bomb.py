@@ -39,7 +39,7 @@ def main():
     
     kk_dct = {                                          # こうかとんの各向きの画像を格納した辞書
           (0, -1) : pg.transform.rotozoom(kk_img_rev, 90, 1.0),
-          (+1, -1): pg.transform.rotozoom(kk_img_rev, 45, 1.0),
+          (+1, -1): pg.transform.rotozoom(kk_img_rev, 45, 1.0), # Issue3
           (+1, 0) : pg.transform.rotozoom(kk_img_rev, 0, 1.0),
           (+1, +1): pg.transform.rotozoom(kk_img_rev, 315, 1.0),
           (0, +1) : pg.transform.rotozoom(kk_img_rev, 270, 1.0),
